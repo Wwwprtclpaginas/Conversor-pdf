@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Imágenes a PDF</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+    <h1>Conversor de Imágenes a PDF</h1>
+
+    <!-- Formulario para cargar una imagen -->
+    <input type="file" id="imageInput" accept="image/*">
+    <button onclick="convertToPDF()">Convertir a PDF</button>
+
+    <!-- Contenedor para mostrar el enlace de descarga -->
+    <div id="downloadLink" style="display: none;">
+        <a id="pdfLink" download="archivo01.pdf">Descargar PDF</a>
+    </div>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
